@@ -1,0 +1,25 @@
+
+Cascading Style Sheet
+
+1. Source code
+2. Specificity
+3. Important
+
+Cascade dan Inheritance
+- Cascade
+- Specificity
+- Inheritance
+
+CSS Selector
+- Type, Class, ID
+- Attribute selectors
+- Pseudo-classes and Pseudo-elements
+- Combinators
+    - descendant combinator
+    - Child combinator : ">"
+    - Adjacent sibling combinator: "+"
+    - General sibling combinator: "~"
+
+The Box Model
+
+Backgrounds and Borders

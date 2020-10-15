@@ -1,0 +1,63 @@
+Catatan 24 September 2020
+DW kelas B
+
+Form --> Formulis
+
+Programming Language --> variable
+Variable:
+nama variable dan nilai dari variable tersebut
+
+String nama;
+nama = "Adi Wahyu";
+nama --> variable
+"Adi Wahyu" --> value/nilai yang disimpan di dalam variable nama
+
+Input
+cout >> nama; --> memasukkan nilai ke variable nama
+cin << nama; --> menampilkan value/nilai yang ada di dalam varible nama
+
+HTML --> interpreter/tidak dicompile tapi diinterpret oleh browser
+     --> tidak ada variable
+
+Padahal dengan adanya web, orang ingin kirim2 data
+Lalu bagaimana dengan HTML supaya bisa kirim data????
+
+solusi menggunakan FORM
+
+form
+    field nama
+    field email
+    field date
+    field textarea
+    field radio button
+    field password
+    field button utk upload
+/form
+
+Lalu gimana kirim datanya?
+
+form action dan ada method
+<form action="" method="">
+
+action ==> ketika user klik submit/kirim data, data itu akan dikirim ke mana???
+
+formulir.html --> form isi nama dan email
+action="simpan.php" artinya variabel dan nilai nama serta email dikirim ke simpan.php
+
+method= POST/GET
+
+POST = variabel yang dikirim hidden di URL
+GET = variable yang dikirim terlihat di URL
+
+formulir.html (POST)
+faris isi data, faris klik kirim (nama: Faris, email: faris@gmail.com)
+simpan.php (data tidak kelihatan)
+URL https://imatika2019.com/simpan.php
+$nama = "Faris";
+$email = "faris@gmail.com";
+
+formulir.html (GET)
+faris isi data, faris klik kirim (nama: Faris, email: faris@gmail.com)
+URL: http://imatika2019.com/simpan.php?nama=faris&email=faris@gmail.com
+$nama = "Faris";
+$email = "faris@gmail.com";

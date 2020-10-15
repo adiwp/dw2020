@@ -1,0 +1,25 @@
+/*li[class] {
+    font-size: 200%;
+}
+
+li[class="a"] {
+    background-color: yellow;
+}
+
+li[class~="a"] {
+    color: red;
+}
+
+article p:first-child::first-line { 
+  font-size: 120%; 
+  font-weight: bold; 
+}
+*/
+.box::after {
+    content: " ";
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px dashed black;
+    background-color: pink;
+}  

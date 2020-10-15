@@ -1,0 +1,19 @@
+Catatan 24 September 2020
+DW kelas B
+
+Gambar:
+- Bitmap --> matriks yang setiap titik pixel berisi 2^8 warna
+- Vector --> garis/kurva/warna
+- Transparant --> background transparant
+- animasi --> gambar bergerak
+
+Bitmap: JPEG/JPG/PNG
+Vector: SVG
+Transparant: PNG/GIF
+Animasi: PNG/GIF
+
+Format Web --> konsorsium dari Google dll.
+
+Foto --> save JPG (kompres sampai masih enak dilihat mata)
+Gambar yang warnanya sedikit --> gif/png
+Kalau ada banyak layer --> animasi --> gif

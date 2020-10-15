@@ -1,0 +1,12 @@
+header {
+    border: 1px dashed red;
+    padding: 10px;
+}
+p {
+    color: brown;
+    margin-top: 20px;
+}
+
+.merah  { color: red; }
+.biru   { color: blue; }
+.hijau  { color: green; }

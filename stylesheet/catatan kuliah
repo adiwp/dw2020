@@ -1,0 +1,93 @@
+catatan kuliah
+
+CSS: Cascading Style Sheet
+
+HTML -> style (CSS)
+
+Website:
+- struktur  (html)
+- Style     (CSS)
+- behaviour (JavaScript)
+
+Deklarasi CSS
+
+element {
+    property: value;
+    ...
+}
+
+HTML
+    head
+    body
+        header
+            nav
+        main
+            section
+                article
+                    header
+                    h1
+                    p
+        footer
+
+
+pilih elemen yang akan kita kasih style
+
+header {
+    color: blue;
+    border: 1px solid black;
+}
+
+Cara menaruh & mengaktifkan CSS
+1. inline di HTML
+2. internal di dalam head HTML
+3. external di luar file HTML
+
+Contoh
+1. INLINE HTML
+<article>
+    <header style="border:1px solid black;">
+        <h1>Tik Tok dilarang di Amerika Serikat</h1>
+        <p>Namun begitu, pelarangan belum resmi diberlakukan</p>
+    </header>
+    <p style="color:blue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+2. INTERNAL di dalam HEAD
+<html>
+    <head>
+    <style>
+        // kode CSS ada di dalam sini
+        // di antara tag <style> dan </style>
+    </style>
+    </head>
+</html>
+3. EXTERNAL dengan membuat file yang extensionnya .css
+di dalam head tambahkan elemen link
+<link rel="stylesheet" href="">
+di dalam href adalah lokasi file css berada
+
+===
+
+CLASS dan ID
+Cara deklarasikan Class
+di dalam style sebutkan nama class sebelumnya beri tanda titik .
+di dalam html menggunakan property class="nama class"
+
+<p class="merah">paragraf1</p>
+<p class="biru">paragraf2</p>
+<p class="hijau">paragraf3</p>
+
+.merah { color: red; }
+.biru  { color: blue; }
+.hijau { color: green; }
+
+Cara deklarasikan ID
+di dalam style sebutkan nama ID sebelumnya beri tanda pagar #
+di dalam html menggunakan property id="nama ID"
+hanya bisa disebutkan 1 x saja
+ID = Identity

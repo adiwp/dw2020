@@ -1,0 +1,19 @@
+span {
+    background-color: yellow;
+}
+
+strong {
+    color: rebeccapurple;
+}
+
+em {
+    color: rebeccapurple;
+}
+
+.highlight {
+    background-color: yellow;
+}
+h1.highlight {
+    background-color: pink;
+    padding: 10px;
+}
