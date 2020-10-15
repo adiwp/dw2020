@@ -1,3 +1,65 @@
+
+VERSION CONTROL???
+
+Tohar
+15 Oktober 2020 jam 08:00 WIB
+Buat folder baru "blog" di C:/laragon/www/
+C:/ mkdir blog
+terus pindah ke folder blog
+C:/ cd blog
+C:/laragon/www/blog
+terus buat sebuah file HTML bernama index.html
+bisa buat dari Sublime Text/Notepad++/VisualCode
+C:/laragon/www/blog/index.html
+
+Zion
+15 Oktober 2020 jam 07:50 WIB
+Buat folder baru "blog" di C:/laragon/www/
+C:/ mkdir blog
+terus pindah ke folder blog
+C:/ cd blog
+C:/laragon/www/blog
+terus buat sebuah file CSS bernama style.css
+bisa buat dari Sublime Text/Notepad++/VisualCode
+C:/laragon/www/blog/style.css
+
+github repository
+Tohar akan membuat repo baru di github namanya blog
+github.com/tohar/blog --> remote origin
+
+c:/laragon/www/blog --> local --> set cabang sebagai main
+
+Tohar -> synchronize local ke remote
+percabangan
+
+github.com/tohar/blog   --> remote branch main (kosong)
+c:/laragon/www/blog     --> local
+
+git branch -M main (enter)
+c:/laragon/www/blog     --> local branch main
+
+git push origin main
+github.com/tohar/blog == c:/laragon/www/blog
+
+
+Zion add repo blog Tohar ke repo blog Zion
+bikin branch
+
+main (tohar)    index.html
+zion (zion)     style.css
+
+17 Oktober 2020
+
+Zion upload ke branch github.com/zion/blog
+Zion minta merge
+
+github.com/tohar/blog
+index.html
+style.css
+
+
+
+
 github
 
 …or create a new repository on the command line
@@ -15,3 +77,4 @@ git branch -M main
 git push -u origin main
 
 baris tambahan
+
